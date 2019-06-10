@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Bookshop.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="GroceryStore.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Newsstand.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Bookshop.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="GroceryStore.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Newsstand.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resources\audio\Hit.wav">
+      <Filter>Pliki zasobów</Filter>
+    </Media>
+    <Media Include="Resources\audio\Point.wav">
+      <Filter>Pliki zasobów</Filter>
+    </Media>
+    <Media Include="Resources\audio\Wing.wav">
+      <Filter>Pliki zasobów</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\fonts\arial.ttf" />
+    <Font Include="Resources\fonts\FlappyFont.ttf" />
+    <Font Include="Resources\fonts\Marker Felt.ttf" />
+    <Font Include="OpenSans-Light.ttf">
+      <Filter>Pliki zasobów</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\res\.gitkeep" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\res\bird-01.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\bird-02.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\bird-03.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\bird-04.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Bronze-Medal.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Game-Over-Body.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Game-Over-Title.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Gold-Medal.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\land.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\InvisibleScoringPipe.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\PipeDown.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\PipeUp.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Platinum-Medal.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\PlayButton.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Silver-Medal.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\sky.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\Splash Background.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="Resources\res\title.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="bookshop.jpg">
+      <Filter>Pliki nagłówkowe</Filter>
+    </Image>
+    <Image Include="Grocerystore.jpg">
+      <Filter>Pliki nagłówkowe</Filter>
+    </Image>
+    <Image Include="Newsstand.jpg">
+      <Filter>Pliki nagłówkowe</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
